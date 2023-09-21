@@ -1,68 +1,9 @@
 {
   "version": 4,
   "terraform_version": "1.4.5",
-  "serial": 2,
+  "serial": 3,
   "lineage": "b34a6fba-58a8-37c8-c072-f5689d2efd1c",
-  "outputs": {
-    "tfc-aws-test2": {
-      "value": "tfc-aws-test2",
-      "type": "string"
-    }
-  },
-  "resources": [
-    {
-      "mode": "managed",
-      "type": "tfe_workspace",
-      "name": "tfc-aws-test2",
-      "provider": "provider[\"registry.terraform.io/hashicorp/tfe\"]",
-      "instances": [
-        {
-          "schema_version": 1,
-          "attributes": {
-            "agent_pool_id": "",
-            "allow_destroy_plan": true,
-            "assessments_enabled": false,
-            "auto_apply": false,
-            "description": "",
-            "execution_mode": "remote",
-            "file_triggers_enabled": true,
-            "force_delete": false,
-            "global_remote_state": false,
-            "html_url": "https://app.terraform.io/app/exnoa-pf-kurose/workspaces/tfc-aws-test2",
-            "id": "ws-8Co2G5z7igh8mjgi",
-            "name": "tfc-aws-test2",
-            "operations": true,
-            "organization": "exnoa-pf-kurose",
-            "project_id": "prj-9h8Grm1j5FxZp2ac",
-            "queue_all_runs": false,
-            "remote_state_consumer_ids": [],
-            "resource_count": 0,
-            "source_name": "",
-            "source_url": "",
-            "speculative_enabled": true,
-            "ssh_key_id": "",
-            "structured_run_output_enabled": true,
-            "tag_names": [],
-            "terraform_version": "1.5.7",
-            "trigger_patterns": [],
-            "trigger_prefixes": [],
-            "vcs_repo": [
-              {
-                "branch": "",
-                "github_app_installation_id": "",
-                "identifier": "kuroseets/tfc-aws-test",
-                "ingress_submodules": false,
-                "oauth_token_id": "ot-gkpWriVLyFuHSTKu",
-                "tags_regex": ""
-              }
-            ],
-            "working_directory": ""
-          },
-          "sensitive_attributes": [],
-          "private": "eyJzY2hlbWFfdmVyc2lvbiI6IjEifQ=="
-        }
-      ]
-    }
-  ],
+  "outputs": {},
+  "resources": [],
   "check_results": null
 }
