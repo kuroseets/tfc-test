@@ -1,9 +1,14 @@
 {
   "version": 4,
   "terraform_version": "1.4.5",
-  "serial": 1,
+  "serial": 2,
   "lineage": "b34a6fba-58a8-37c8-c072-f5689d2efd1c",
-  "outputs": {},
+  "outputs": {
+    "tfc-aws-test2": {
+      "value": "tfc-aws-test2",
+      "type": "string"
+    }
+  },
   "resources": [
     {
       "mode": "managed",
@@ -39,8 +44,8 @@
             "structured_run_output_enabled": true,
             "tag_names": [],
             "terraform_version": "1.5.7",
-            "trigger_patterns": null,
-            "trigger_prefixes": null,
+            "trigger_patterns": [],
+            "trigger_prefixes": [],
             "vcs_repo": [
               {
                 "branch": "",
